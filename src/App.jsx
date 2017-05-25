@@ -4,7 +4,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        Music Master from App
+        <div className="App-title">Music Master</div>
       </div>
     )
   }
