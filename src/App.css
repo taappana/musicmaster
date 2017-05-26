@@ -1,6 +1,6 @@
 body {
-  background-color: #353535;
-  color: #bfb9b9;
+  background: #000;
+  color: #fff;
 }
 
 .App {
@@ -9,5 +9,36 @@ body {
 }
 
 .App-title {
-  font-size: 30px;
+  font-size: 26px;
+}
+
+/*Profile*/
+
+.Profile {
+  display: flex;
+  justify-content: center;
+}
+
+.Profile-info {
+  margin-left: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Profile-img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 75px;
+  object-fit: cover;
+}
+
+.Profile-name {
+  font-size: 26px;
+}
+
+.Profile-followers, .profile-genres {
+  font-size: 18px;
 }
